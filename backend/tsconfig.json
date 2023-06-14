@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@config/*": ["src/config/*"],
+      "@enums/*": ["src/enums/*"],
+      "@entities/*": ["src/entities/*"],
+      "@train/*": ["src/train/*"],
+      "@path-point/*": ["src/path-point/*"],
+      "@point/*": ["src/point/*"],
+      "@train-schedule/*": ["src/train-schedule/*"],
+      "@injection-tokens": ["src/injection-tokens"],
+      "@common/*": ["src/common/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}
